@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<link>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Precio del contrato</title>
+  <script type="module">
+    import { ethers } from 'https://cdn.jsdelivr.net/npm/ethers@5.4.6/dist/ethers.esm.min.js';
+    window.ethers = ethers;
+  </script>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="sponsors">
+    <h1>Esta información llega gracias a&nbsp;</h1>
+    <img height="30" src="./images/logo-horizontal-negro.png" alt="">
+    &nbsp;
+    <img width="50" src="./images/icono-negro.png" alt="">
+  </div>
+  <h2 id="price">Cargando la temperatura...</h2>
+  <script type="module" src="readPriceClient.js"></script>
+</body>
+</html>
